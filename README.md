@@ -27,12 +27,12 @@ The website was created as part of an academic assignment to demonstrate fundame
 ---
 
 ### How to Run the Project
+### Requirements
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
 
-Option 1:
-Open the `index.html` file directly in your web browser.
+### Steps to Run Locally
 
-Option 2 (Recommended):
-Use a local development server:
+1. Clone the repository:
 
-```bash
-python -m http.server 8000
+   ```bash
+   git clone https://github.com/LenaYassserq/-202268180-LenaAlqaissom-assignment1.git 
