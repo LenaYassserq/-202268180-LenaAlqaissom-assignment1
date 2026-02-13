@@ -102,4 +102,3 @@ All scripts are written in a separate `script.js` file to maintain clean code st
 
 This project demonstrates the implementation of fundamental front-end development concepts, structured project organization, and responsive web design. It reflects both technical understanding and proper documentation practices required for academic submission.
 
-
