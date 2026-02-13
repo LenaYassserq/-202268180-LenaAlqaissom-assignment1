@@ -140,6 +140,22 @@ a:hover {
   border-radius: var(--radius);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 240, 248, 0.9));
   box-shadow: var(--shadow);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hero-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .eyebrow {
