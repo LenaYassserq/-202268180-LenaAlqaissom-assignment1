@@ -10,9 +10,9 @@ The goal was to enhance my understanding of front-end development while using AI
 
 ## Tools Used & Use Cases
 
-### 1. ChatGPT
+### 1. Cursor AI
 
-ChatGPT was used for:
+Cursor AI was used for:
 
 - Structuring the HTML layout and organizing sections properly.
 - Fixing file linking issues between HTML, CSS, and JavaScript.
@@ -33,8 +33,6 @@ Using AI tools provided several advantages:
 - Increased confidence in resolving Git and GitHub issues.
 
 ---
-
-
 
 ## Learning Outcomes
 
