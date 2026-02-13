@@ -43,16 +43,13 @@ This is a single-page personal portfolio website developed for Lena, a junior So
 
 ---
 
-### How to Run the Project
-### Requirements
-- A modern web browser (Chrome, Firefox, Safari, or Edge)
+### Setup instructions 
+1. Clone or download the project files to your local machine
+2. Navigate to the project directory
+3. Open index.html directly in your web browser
 
-### Steps to Run Locally
 
-1. Clone the repository:
+## Project Summary
 
-   ```bash
-   git clone https://github.com/LenaYassserq/-202268180-LenaAlqaissom-assignment1.git  
-
-2. Navigate to the project directory.
-3. Open index.html directly in your browser.
+This project is a responsive personal portfolio website developed as part of an academic assignment. It demonstrates fundamental web development skills using HTML, CSS, and JavaScript, along with structured project organization and basic interactivity.
+The website includes an About section, selected academic projects, and a Contact form, reflecting clean design principles and practical front-end development concepts.
