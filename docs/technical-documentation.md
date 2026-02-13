@@ -19,6 +19,8 @@ The website presents personal information, selected academic projects, and conta
 ---
 
 ## 3. Project Structure
+
+```
 -202268180-LenaAlqaissom-assignment1/
 ├── assets/
 │   └── images/
@@ -34,71 +36,93 @@ The website presents personal information, selected academic projects, and conta
 ├── README.md
 └── .vscode/
 ```
+---
+
+Each file is separated by responsibility to maintain clarity and modularity.
 
 ---
 
-## 4. Website Sections
+## Website Structure
 
-### About Section
-Introduces the author’s academic background and professional goals.
+### HTML Structure
+The website is structured using semantic HTML elements to ensure clarity and readability:
 
-### Projects Section
-Displays selected academic projects with titles and descriptions.
+- `<header>` – Contains navigation links.
+- `<main>` – Wraps the main content.
+- `<section>` – Separates major content areas.
+- `<article>` – Used for project cards.
+- `<footer>` – Displays footer information.
 
-### Contact Section
-Includes a simple contact form (Name, Email, Message) and Linkedin, Github links. 
+The layout is organized into three main sections:
+- About
+- Projects
+- Contact
 
 ---
 
-## 5. Responsive Design
+## CSS Architecture
 
-The website is designed to work on:
+- Uses CSS custom properties (variables) for consistent colors and spacing.
+- Implements Flexbox for layout alignment.
+- Uses Grid for organizing project cards.
+- Applies responsive design using media queries.
+- Maintains consistent spacing, typography, and visual hierarchy.
 
-- Desktop
-- Tablet
-- Mobile devices
+The design follows a soft pastel theme with structured spacing and rounded components.
 
-Responsive behavior is implemented using:
+---
+
+## JavaScript Functionality
+
+JavaScript is used to:
+
+- Enhance interactivity within the page.
+- Handle basic dynamic behavior (such as navigation highlighting or form interaction, if implemented).
+- Improve user experience through DOM manipulation.
+
+All JavaScript code is written in a separate `script.js` file to maintain separation of concerns.
+
+---
+
+## Responsive Design
+
+The website adapts to different screen sizes:
+
+- Desktop layout with multi-column grid.
+- Tablet layout with adjusted spacing.
+- Mobile layout with stacked sections.
+
+Responsive behavior is achieved using:
 - CSS Flexbox
+- CSS Grid
 - Media queries
-- Flexible width containers
 
-Layout elements automatically adjust based on screen size.
-
----
-
-## 6. JavaScript Functionality
-
-JavaScript is used to add interactivity to the website, such as:
-
-- Handling form interactions
-- Updating dynamic content (if applicable)
-- Improving user experience with simple DOM manipulation
-
-All scripts are written in a separate `script.js` file to maintain clean code structure.
+This ensures usability across devices.
 
 ---
 
-## 7. How the Website Works
+## How the Website Works
 
 1. The browser loads `index.html`.
-2. The HTML structure defines the layout and content.
-3. The CSS file (`styles.css`) applies styling and responsive design.
-4. The JavaScript file (`script.js`) adds interactive behavior.
-5. All assets (images) are loaded from the `assets` folder.
+2. The CSS file (`styles.css`) applies layout and styling.
+3. The JavaScript file (`script.js`) initializes interactive features.
+4. Images and assets are loaded from the `assets/images` folder.
+5. Navigation links allow smooth movement between sections.
 
 ---
 
-## 8. Code Organization & Quality
+## Code Organization & Quality
 
-- Files are separated by responsibility (HTML, CSS, JS).
-- Clean and readable formatting is used.
-- Meaningful folder structure is maintained.
-- Version control is managed using Git.
+- Clear folder structure.
+- Separated HTML, CSS, and JavaScript files.
+- Consistent indentation and formatting.
+- Meaningful class names and organized styling.
+- Version control maintained using Git.
 
 ---
 
-## 9. Conclusion
+## Conclusion
 
-This project demonstrates the implementation of fundamental front-end development concepts, structured project organization, and responsive web design. It reflects both technical understanding and proper documentation practices required for academic submission.
+This portfolio project demonstrates the implementation of fundamental web development principles, responsive design techniques, and organized project structure. It reflects practical understanding of front-end technologies and proper technical documentation practices required for academic submission.
+
 
